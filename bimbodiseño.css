@@ -1,0 +1,1292 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-BlackItalic.woff2") format("woff2"), url("fonts/Raleway-BlackItalic.woff") format("woff"), url("fonts/Raleway-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Bold.woff2") format("woff2"), url("fonts/Raleway-Bold.woff") format("woff"), url("fonts/Raleway-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-BoldItalic.ttf") format("woff2"), url("fonts/Raleway-BoldItalic.woff") format("woff"), url("fonts/Raleway-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-ExtraBold.woff2") format("woff2"), url("fonts/Raleway-ExtraBold.woff") format("woff"), url("fonts/Raleway-ExtraBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-ExtraLight.woff2") format("woff2"), url("fonts/Raleway-ExtraLight.woff") format("woff"), url("fonts/Raleway-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-ExtraBoldItalic.woff2") format("woff2"), url("fonts/Raleway-ExtraBoldItalic.woff") format("woff"), url("fonts/Raleway-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Italic.woff2") format("woff2"), url("fonts/Raleway-Italic.woff") format("woff"), url("fonts/Raleway-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-ExtraLightItalic.woff2") format("woff2"), url("fonts/Raleway-ExtraLightItalic.woff") format("woff"), url("fonts/Raleway-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Light.woff2") format("woff2"), url("fonts/Raleway-Light.woff") format("woff"), url("fonts/Raleway-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-LightItalic.woff2") format("woff2"), url("fonts/Raleway-LightItalic.woff") format("woff"), url("fonts/Raleway-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Medium.woff2") format("woff2"), url("fonts/Raleway-Medium.woff") format("woff"), url("fonts/Raleway-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-MediumItalic.woff2") format("woff2"), url("fonts/Raleway-MediumItalic.woff") format("woff"), url("fonts/Raleway-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Regular.woff2") format("woff2"), url("fonts/Raleway-Regular.woff") format("woff"), url("fonts/Raleway-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-SemiBold.woff2") format("woff2"), url("fonts/Raleway-SemiBold.woff") format("woff"), url("fonts/Raleway-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-SemiBoldItalic.woff2") format("woff2"), url("fonts/Raleway-SemiBoldItalic.woff") format("woff"), url("fonts/Raleway-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Thin.woff2") format("woff2"), url("fonts/Raleway-Thin.woff") format("woff"), url("fonts/Raleway-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-ThinItalic.woff2") format("woff2"), url("fonts/Raleway-ThinItalic.woff") format("woff"), url("fonts/Raleway-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Black.woff2") format("woff2"), url("fonts/Raleway-Black.woff") format("woff"), url("fonts/Raleway-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Myriad Pro";
+    src: url("fonts/MyriadPro-Regular.woff2") format("woff2"), url("fonts/MyriadPro-Regular.woff") format("woff"), url("fonts/MyriadPro-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Avenir";
+    src: url("fonts/Avenir-BlackOblique.woff2") format("woff2"), url("fonts/Avenir-BlackOblique.woff") format("woff"), url("fonts/Avenir-BlackOblique.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Futura";
+    src: url("fonts/FuturaBT-ExtraBlackCondItalic.woff2") format("woff2"), url("fonts/FuturaBT-ExtraBlackCondItalic.woff") format("woff"), url("fonts/Futura.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "SF Pro";
+    src: url("fonts/SFPro-Regular.woff2") format("woff2"), url("fonts/SFPro-Regular.woff") format("woff"), url("fonts/SF-Pro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Acumin Pro";
+    src: url("fonts/AcuminPro-Regular.woff2") format("woff2"), url("fonts/AcuminPro-Regular.woff") format("woff"), url("fonts/AcuminPro-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Acumin Pro ExtraCondensed";
+    src: url("fonts/AcuminProExtraCond-Thin.woff2") format("woff2"), url("fonts/AcuminProExtraCond-Thin.woff") format("woff"), url("fonts/AcuminProExtraCond-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Hiragino Sans GB";
+    src: url("fonts/Hiragino-Sans-GB-W3.woff") format("woff"), url("fonts/Hiragino-Sans-GB-W3.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Hiragino Sans GB";
+    src: url("fonts/Hiragino-Sans-GB-W6.woff") format("woff"), url("fonts/Hiragino-Sans-GB-W6.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Oswald";
+    src: url("fonts/Oswald-HeavyItalic.woff2") format("woff2"), url("fonts/Oswald-HeavyItalic.woff") format("woff"), url("fonts/Oswald-HeavyItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Corbel";
+    src: url("fonts/corbel.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  #ctl00_pnlBR {
+    display: none;
+  }
+  
+  #mainContainer {
+    padding: 0 !important;
+  }
+  
+  .widgetDropped {
+    margin: 0;
+  }
+  
+  .pc {
+    display: inline-block;
+  }
+  @media screen and (max-width: 900px) {
+    .pc {
+      display: none;
+    }
+  }
+  
+  .mobile {
+    display: block;
+  }
+  @media screen and (min-width: 900px) {
+    .mobile {
+      display: none;
+    }
+  }
+  
+  .hamburger {
+    color: white;
+    display: block;
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: #FF645A;
+    line-height: 1.4;
+    z-index: 200;
+    font-family: "Raleway";
+  }
+  
+  .arrow {
+    left: 5%;
+    right: auto;
+    display: none;
+  }
+  
+  .sideNav {
+    font-family: "Raleway";
+    color: white;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 201;
+    overflow-x: hidden;
+    width: 0;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .sideNav-close {
+    background-color: #FF4D34;
+    height: 20%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+  .sideNav-menu {
+    padding: 0 20px;
+    flex-basis: 100%;
+  }
+  .sideNav-menu .left-ident {
+    padding-left: 40px;
+  }
+  .sideNav-item {
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .sideNav-item:last-child {
+    border-bottom: none;
+  }
+  .sideNav-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  .sideNav-item a img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .bottom-nav {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 15;
+  }
+  .bottom-nav div {
+    border-right: 1px solid white;
+    flex-basis: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .bottom-nav div:nth-child(3) {
+    border-right: none;
+  }
+  .bottom-nav img {
+    height: 32px;
+    width: auto;
+  }
+  
+  @media screen and (min-width: 900px) {
+    .hamburger, .sideNav, .bottom-nav {
+      display: none;
+    }
+  }
+  .main-section {
+    min-height: 100vh;
+    background-color: #033154;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 60px;
+    font-family: "Raleway";
+    text-align: center;
+  }
+  .main-section .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+  }
+  .main-section .navbar .menu {
+    background: #FF7162;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+  .main-section .navbar img {
+    width: auto;
+    height: 50px;
+  }
+  .main-section .navbar .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  .main-section .navbar .nav-right .menu {
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 11px 0px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+  }
+  .main-section .navbar .nav-right .menu div {
+    padding: 20px 10px;
+  }
+  .main-section .navbar .nav-right .menu div:nth-child(1) {
+    padding-left: 20px;
+  }
+  .main-section .navbar .nav-right .menu div:nth-child(3) {
+    padding-right: 20px;
+  }
+  .main-section .navbar .nav-right .menu .dropdown {
+    position: relative;
+    cursor: pointer;
+    text-align: start;
+  }
+  .main-section .navbar .nav-right .menu .dropdown-content {
+    display: none;
+    position: absolute;
+    padding: 35px 0 0;
+    width: fit-content;
+    width: -moz-fit-content;
+    transform: translateX(-20px);
+    z-index: 10;
+  }
+  .main-section .navbar .nav-right .menu .dropdown-content .dropdown-item {
+    background-color: #EC5B42;
+    padding: 0 20px;
+  }
+  .main-section .navbar .nav-right .menu .dropdown-content .dropdown-item .last {
+    border-bottom: none;
+  }
+  .main-section .navbar .nav-right .menu .dropdown-content a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+    color: white;
+  }
+  .main-section .navbar .nav-right .menu .dropdown-content::before {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #EC5B42;
+    position: absolute;
+    top: 20px;
+    left: 44%;
+  }
+  .main-section .navbar .nav-right .menu .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .main-section .navbar .nav-right .menu a {
+    color: inherit;
+  }
+  .main-section .navbar .nav-right .nav-icon {
+    margin-left: 15px;
+  }
+  .main-section .navbar .nav-right .nav-icon img {
+    height: 30px;
+  }
+  @media screen and (max-width: 900px) {
+    .main-section .navbar {
+      padding: 5% 10%;
+    }
+    .main-section .navbar img {
+      height: 50px;
+    }
+    .main-section .navbar .nav-right {
+      display: none;
+    }
+  }
+  .main-section h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-weight: normal;
+    font-size: 36px;
+  }
+  .main-section h1 img {
+    width: 50px;
+  }
+  .main-section .main-H1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .main-section p {
+    font-size: 24px;
+    margin-top: 1em;
+    color: #E84F3C;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .main-section p img {
+    vertical-align: middle;
+  }
+  @media screen and (max-width: 900px) {
+    .main-section {
+      background-image: url("../img/Fondo1-M.png");
+      background-position: center 70%;
+      background-size: cover;
+    }
+    .main-section .main-section-title {
+      padding: 0 5%;
+    }
+    .main-section .main-section-title h1 {
+      letter-spacing: normal;
+      font-size: 26px;
+    }
+    .main-section .main-section-title p {
+      font-size: 1rem;
+    }
+  }
+  
+  .liderazgo-container {
+    background-image: url("../img/FondoWeb-01.png");
+    background-size: cover;
+    background-position: bottom;
+  }
+  @media screen and (max-width: 900px) {
+    .liderazgo-container {
+      background-image: none;
+      padding-bottom: 25%;
+    }
+  }
+  
+  .factores {
+    display: flex;
+    align-items: center;
+    padding: 2.5% 10%;
+    font-family: "Raleway";
+  }
+  .factores-item {
+    border-right: 1px solid white;
+    padding: 1% 5%;
+    width: 25%;
+  }
+  .factores-item:nth-child(1) {
+    border-left: 1px solid white;
+  }
+  .factores-text {
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  .factores-btn {
+    font-size: 16px;
+    cursor: pointer;
+    font-style: italic;
+  }
+  .factores-slide {
+    margin-top: 5%;
+  }
+  .factores-icon {
+    height: 60px;
+    width: auto;
+  }
+  .factores-arrow {
+    width: 30px;
+    margin-top: 10%;
+  }
+  @media screen and (max-width: 1500px) {
+    .factores {
+      padding: 2.5% 5%;
+    }
+    .factores-item {
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .factores-text {
+      font-size: 1.5em;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .factores {
+      display: none;
+    }
+    .factores-text {
+      font-size: 2em;
+    }
+    .factores-arrow {
+      margin-top: 0;
+    }
+  }
+  
+  .bold {
+    font-weight: 900;
+  }
+  
+  .carousel {
+    margin: 5%;
+  }
+  .carousel-indicators {
+    bottom: -15%;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+  }
+  
+  .middle {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+    font-weight: bold;
+    font-family: "Raleway";
+  }
+  .middle-left {
+    width: 100%;
+    border-bottom: 1px solid white;
+  }
+  .middle-left-txt {
+    float: right;
+    padding: 10px 5%;
+    border-top: 1px solid white;
+    position: relative;
+  }
+  .middle-left-txt span {
+    font-weight: normal;
+  }
+  @media screen and (max-width: 600px) {
+    .middle-left-txt span {
+      font-size: 8px;
+    }
+  }
+  .middle-left .triangle-left {
+    width: 20px;
+    height: 20px;
+    transform: rotateZ(90deg);
+    right: 100%;
+    top: -10px;
+    border-style: solid;
+    border-width: 20px 10px 0px;
+    border-color: #ff3d2e transparent transparent;
+    position: absolute;
+  }
+  .middle-center {
+    width: 9.4%;
+    border: 1px solid white;
+    transform: rotate(45deg);
+    margin: 0 -0.8%;
+  }
+  .middle-right {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+  .middle-right-txt {
+    float: left;
+    padding: 10px 15%;
+    border-bottom: 1px solid white;
+    position: relative;
+  }
+  .middle-right .triangle-right {
+    width: 20px;
+    height: 20px;
+    transform: rotateZ(-90deg);
+    left: 100%;
+    border-style: solid;
+    border-width: 20px 10px 0px;
+    border-color: #ff3d2e transparent transparent;
+    position: absolute;
+  }
+  @media screen and (max-width: 1500px) {
+    .middle-center {
+      width: 13.5%;
+      margin: 0 -1.2%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .middle-center {
+      width: 17.7%;
+      margin: 0 -1.6%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .middle {
+      padding: 9% 5% 5%;
+    }
+    .middle-left-txt {
+      width: 100%;
+      padding: 10px 0;
+    }
+    .middle-right-txt {
+      width: 100%;
+      padding: 10px 0;
+    }
+    .middle-center {
+      width: 20.5%;
+      margin: 0 -1.8%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .middle {
+      padding: 7% 5% 0;
+    }
+    .middle-center {
+      width: 34%;
+      transform: rotate(65deg);
+      margin: 0 -5%;
+    }
+    .middle .triangle-left {
+      width: 10px;
+      height: 10px;
+      top: -5px;
+      border-width: 10px 5px 0px;
+    }
+    .middle .triangle-right {
+      width: 10px;
+      height: 10px;
+      bottom: -5px;
+      border-width: 10px 5px 0px;
+    }
+  }
+  
+ 
+.competencias {
+  min-height: 100vh;
+    background-color: #033154;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 60px;
+    font-family: "Raleway";
+    text-align: center;
+   
+   
+ }
+ 
+ .imgpie{
+   background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Linea categorías-01.png");
+   background-position: center;
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding-top: 3%;
+   object-fit: cover;
+ 
+ 
+ }
+
+ .imgfondoCompetencias{
+  background-image: url("./assets/img/PNG/graphic_línea.png");
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  object-fit: cover;
+  position: fixed;
+  height: 710px;
+  width: 122%;
+  background-position: bottom;
+  margin-left: -315px;
+  margin-top: -8%;
+
+ 
+}
+
+.imagenA{
+  background-image: url("./assets/img/PNG/graphic_A.png");
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  object-fit: cover;
+  position: fixed;
+  height: 120%;
+  width: 122%;
+  background-position: center;
+  margin-left: -505px;
+  margin-top: -2%;
+}
+
+ .competencias h1 {
+   font-weight: normal;
+   letter-spacing: 3px;
+   font-size: 24px;
+   text-transform: uppercase;
+   padding: 1%;
+ }
+ .competencias h3 {
+   margin-bottom: 4%;
+   font-size: 22px;
+   margin-top: 0em;
+   padding: 0 10%;
+   font-weight: normal;
+   font-family: "Myriad Pro";
+   color: lightgoldenrodyellow;
+ }
+ .competencias-buttons {
+   display: flex;
+   align-items: center;
+   
+   justify-content: space-evenly;
+   padding: 0 3%;
+ }
+ .competencias-buttons a {
+   width: 45%;
+   text-decoration: none; /*text decoration*/
+  
+ }
+ .competencias-item {
+   border-radius: 50px;
+   padding: 20px;
+   text-decoration: none;
+   box-shadow: 3px 3px 8px #4e4e4e;
+   color: #ffffff;
+   font-size: 24px;
+   line-height: 1;
+ }
+ .competencias .liderazgo {
+   background-color: #fd4a4a;
+   margin-bottom: -7%;
+   margin-top: -5%;
+ }
+ .competencias .liderazgo2 {
+  background-color: #ff5100;
+  margin-bottom: -7%;
+  margin-top: -5%;
+}
+ .competencias .humanas {
+   background-color: #4FADD4;
+   margin-bottom: -7%;
+   margin-top: -7%;
+ }
+ .competencias .tecnicas {
+   background-color: #D79C3D;
+   margin-bottom: -7%;
+   margin-top: -8%;
+ }
+ .competencias .tecnicas {
+   background-color: #D79C3D;
+   margin-bottom: -7%;
+   margin-top: -8%;
+ }
+ @media screen and (max-width: 900px) {
+   .competencias {
+     background-image: url("./assets/img/PNG/graphic_A.png");
+     background-position: bottom;
+   }
+   .competencias h1 {
+     font-size: 28px;
+   }
+   .competencias-buttons {
+     flex-direction: column;
+   }
+   .competencias-buttons a {
+     width: 30%;
+   }
+   .competencias-item {
+     margin-bottom: 10%;
+   }
+ }
+ @media screen and (max-width: 600px) {
+   .competencias {
+     padding-top: 0%;
+   }
+   .competencias-item {
+     padding: 0px 10px;
+   }
+ }
+ 
+  .guia {
+    color: white;
+    border: 1px solid white;
+    padding: 1%;
+    border-radius: 10px;
+    font-style: italic;
+  }
+  .guia-mobile {
+    width: 45%;
+    margin: auto;
+    padding: 3%;
+  }
+  
+  .guia-img {
+    width: 50px;
+  }
+  
+  .competencias-open {
+    font-family: "Raleway";
+    color: #166066;
+    display: none;
+  }
+  .competencias-open h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: white;
+    margin-top: 1em;
+  }
+  .competencias-open h3 {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: white;
+  }
+  .competencias-open-container {
+    background-color: #3B70B3;
+    padding: 1%;
+    margin: 2.5% 10%;
+    position: relative;
+    color: #033154;
+  }
+  .competencias-open-container .comp-img {
+    width: 60px;
+  }
+  .competencias-open-container .cerrar {
+    color: white;
+    float: right;
+    font-size: 12px;
+    text-decoration: underline;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  .competencias-open-container h1 {
+    color: inherit;
+  }
+  .competencias-open-container h1 #Factor {
+    font-weight: 900;
+  }
+  .competencias-open-container .cursos-row {
+    display: flex;
+    margin-top: 2.5%;
+  }
+  .competencias-open-container .cursos-row-item {
+    flex-basis: 25%;
+    padding: 0 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .competencias-open-container .cursos-row-item .title {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  .competencias-open-container .cursos-row-item .subtitle {
+    color: inherit;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .competencias-open-container .cursos-row-item p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+    font-style: italic;
+    opacity: 0.5;
+  }
+  .competencias-open-container .cursos-row-item img {
+    width: 25px;
+    opacity: 0.5;
+    margin-top: 10px;
+  }
+  .competencias-open-container .cursos-row-item .cursos-btn {
+    font-size: 12px;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .competencias-open-container .cursos-row-item hr {
+    border-bottom: 1px solid white;
+    margin: 0.5em 0;
+    opacity: 0.5;
+  }
+  
+  .trigo-img {
+    width: 15px;
+    height: auto;
+  }
+  
+  .competimos {
+    color: #003257;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+  }
+  @media screen and (max-width: 900px) {
+    .competimos {
+      padding-bottom: 5%;
+      color: white;
+    }
+  }
+  
+  .competencias-mobile {
+    display: none;
+  }
+  .competencias-mobile h2 {
+    font-size: 1em;
+    font-weight: 300;
+    color: white;
+    margin-top: 1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .competencias-mobile h3 {
+    font-size: 1em;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 2.5%;
+    text-align: center;
+  }
+  .competencias-mobile h1 {
+    color: white;
+    padding-top: 2.5%;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+  .competencias-mobile h1 #FactorM {
+    font-weight: 900;
+  }
+  .competencias-mobile #competencias-filosofia {
+    text-align: initial;
+  }
+  .competencias-mobile .competencias-icon {
+    width: 50px;
+  }
+  .competencias-mobile .competencias-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .competencias-mobile .competencias-grid-item {
+    background-color: #1D71B8;
+    border-radius: 10px;
+    font-size: 18px;
+    flex-basis: 40%;
+    font-weight: 900;
+    line-height: 1;
+    margin: 5% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    height: 55px;
+    cursor: pointer;
+  }
+  .competencias-mobile .competencia-item {
+    display: none;
+  }
+  .competencias-mobile .competencia-item .title {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin: 5% 0;
+  }
+  .competencias-mobile .competencia-item .title img {
+    width: 50px;
+    margin: 2%;
+  }
+  .competencias-mobile .competencia-item-container {
+    background-color: #1D71B8;
+    border-radius: 30px;
+    width: 70%;
+    padding: 5%;
+    margin: 5% auto;
+  }
+  .competencias-mobile .competencia-item .subtitle {
+    color: #003257;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 0 2.5%;
+  }
+  .competencias-mobile .competencia-item p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+  }
+  .competencias-mobile .competencia-item .cursos-btn {
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5%;
+  }
+  .competencias-mobile .competencia-item img {
+    width: 40px;
+  }
+  
+.video {
+  font-family: "Raleway";
+  /*background-color:rgb( 83, 144, 171, 100);
+  background-size: cover;*/
+  padding: 10%;
+  color: #0E3487;
+
+}
+
+.video h3 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 3px;
+  text-shadow: 7px 7px 7px #4e4e4e;
+  margin-top: 10%;
+}
+
+ .imgfondo{
+  background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/Linea contenidos-01.png");
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  object-fit: cover;
+  position: fixed;
+  height: 400px;
+  width: 100%;
+  background-position: center;
+  margin-left: -205px;
+  margin-top: 10%;
+ 
+ 
+}
+
+
+
+.video-container {
+  display: flex;
+  align-items: center;
+   
+
+}
+.video-container picture, .video-container a {
+  flex-basis: 50%;
+}
+.video-container picture img, .video-container picture video, .video-container a img, .video-container a video {
+  width: 100%;
+  height: 325px;
+  border: 3px solid #FFFFFF;
+  border-radius: 50px;
+}
+.video-information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* flex-basis: 50%; */
+  /* padding: 0 5%; */
+  margin-left:4vw;
+}
+.video-description h2 {
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 1%;
+  color: #0E3487;
+
+}
+
+.video-body h1 {
+
+  font-weight: normal;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 0%;
+  
+}
+
+.video-description a {
+  color: white;
+  
+  padding: 20px 20px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 50px;
+}
+.video-description p {
+  font-style: italic;
+  font-size: 14px;
+  margin: 0em 0;
+}
+.video-body {
+  display: flex;
+  align-items: flex-end;
+}
+.video-body .qr {
+  color: white;
+  font-size: 12px;
+  text-align: end;
+  flex-basis: 50%;
+}
+.video-body .qr img {
+  box-shadow: 5px 5px 12px black;
+  margin-bottom: 10px;
+  width: 75px;
+}
+/*
+@media screen and (max-width: 1920px) {
+  .video-description {
+    margin-left: 32px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .video-information {
+    padding: 0 5%;
+  }
+  .video-description h2 {
+    font-size: 24px;
+  }
+  .video-description a {
+    font-size: 18px;
+  }
+  .video-logo img {
+    height: 75px;
+  }
+  .video-body .qr {
+    display: none;
+  }
+  .imgfondo{
+    width: 50%;
+
+  }
+}*/
+@media screen and (max-width: 900px) {
+  .video {
+    background-image: url("https://eddy-brock.github.io/ScoolSales/assets/img/FondoBrain-01M.png");
+    background-position: top;
+  }
+  .video-container {
+    flex-direction: column;
+  }
+  .video-container picture {
+    margin: auto;
+  }
+  .video-information {
+    flex-direction: row;
+    padding: 5% 15%;
+  }
+  .video-description {
+    margin-left: 10%;
+  }
+  .video-logo img {
+    height: 100px;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .video {
+    background-position: right;
+  }
+  .video-information {
+    padding: 5%;
+  }
+  .video-description {
+    margin-left: 1%;
+  }
+  .video-description p {
+    font-size: 18px;
+  }
+  .imgfondo {
+    width: 0%;
+    background-attachment: fixed;
+  }
+}
+
+  
+  footer {
+    width: 100%;
+  }
+  
+  .footer-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("../img/Banner-Footer-01.jpg");
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+    color: #FF7162;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5% 0;
+  }
+  .footer-banner .footer-hashtag {
+    font-family: "Oswald";
+    text-transform: uppercase;
+    color: white;
+    height: auto;
+  }
+  .footer-banner .footer-logo {
+    height: 60px;
+  }
+  .footer-banner a {
+    color: inherit;
+  }
+  
+  .copy {
+    padding: 1%;
+    font-family: "Acumin Pro";
+    background-color: #E84F3C;
+    text-align: center;
+    color: white;
+  }
+  .copy-arrow {
+    float: right;
+  }
+  .copy-arrow img {
+    height: 20px;
+  }
+  
+  @media screen and (max-width: 900px) {
+    footer {
+      display: none;
+    }
+  }
+  
+  /*# sourceMappingURL=liderazgo.css.map */
