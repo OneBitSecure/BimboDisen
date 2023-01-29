@@ -725,10 +725,10 @@
   object-fit: cover;
   position: fixed;
   height: 100%;
-  width: 120%;
+  width: 100%;
   background-position: center;
   margin-left: -256px;
-  margin-top: -15%;
+  margin-top: -16%;
 
  
 }
