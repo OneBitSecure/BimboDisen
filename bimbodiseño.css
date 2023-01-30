@@ -701,7 +701,7 @@
     padding-top: 60px;
     font-family: "Raleway";
     text-align: center;
-   
+    background-attachment:inherit;
    
  }
  
@@ -724,11 +724,11 @@
 
   object-fit: cover;
   position: fixed;
-  height: 480px;
-  width: 110%;
+  height: 580px;
+  width: 115%;
   background-position: center;
-  margin-left: -200px;
-  margin-top: 3%;
+  margin-left: -230px;
+  margin-top: 0%;
   background-attachment:inherit;
  
 }
@@ -738,14 +738,14 @@
   
   background-size: contain;
   background-repeat: no-repeat;
-
+  background-attachment:inherit;
   object-fit: cover;
   position: fixed;
   height: 120%;
   width: 122%;
   background-position: center;
   margin-left: -505px;
-  margin-top: -2%;
+  margin-top: -5%;
 }
 
  .competencias h1 {
