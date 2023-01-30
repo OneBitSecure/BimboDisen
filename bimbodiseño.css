@@ -725,8 +725,9 @@
   position: absolute;
   height: 820px;
   width: 110vw;
-  background-position: inherit;
+  background-position: center;
   margin-left: -105px;
+  margin-top: 0px;
 
  
 }
