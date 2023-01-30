@@ -723,11 +723,12 @@
 
   object-fit: cover;
   position: fixed;
-  height: 600px;
-  width: 115%;
+  height: 820px;
+  width: 100%;
   background-position: center;
-  margin-left: -300px;
-  margin-top: 10%;
+  margin-left: -175px;
+  margin-top: 4%;
+
 
  
 }
