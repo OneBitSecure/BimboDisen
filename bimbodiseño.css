@@ -722,13 +722,11 @@
   background-repeat: no-repeat;
 
   object-fit: cover;
-  position: fixed;
+  position: absolute;
   height: 820px;
   width: 110vw;
-  background-position: initial;
-  margin-left: -205px;
-  
-  margin-top: -15%;
+  background-position: inherit;
+  margin-left: -105px;
 
  
 }
