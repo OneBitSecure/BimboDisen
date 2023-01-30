@@ -724,10 +724,10 @@
 
   object-fit: cover;
   position: fixed;
-  height: 580px;
-  width: 118%;
+  height: 570px;
+  width: 115%;
   background-position: center;
-  margin-left: -330px;
+  margin-left: -300px;
   margin-top: 0%;
   background-attachment:inherit;
  
