@@ -724,8 +724,8 @@
   object-fit: cover;
   position: fixed;
   height: 820px;
-  width: 112%;
-  background-position: center;
+  width: 110vw;
+  background-position: initial;
   margin-left: -205px;
   
   margin-top: -15%;
@@ -741,8 +741,8 @@
   background-attachment:inherit;
   object-fit: cover;
   position: fixed;
-  height: 120%;
-  width: 122%;
+  height: 100vh;
+  width: 100vw;
   background-position: center;
   margin-left: -585px;
   margin-top: -5%;
