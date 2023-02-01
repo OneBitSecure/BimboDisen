@@ -726,7 +726,7 @@ background-attachment:inherit;
   height: 58vh;
   width: 115vw;
   background-position: center;
-  margin-left: -268px;
+  margin-left: -388px;
   margin-top: -75px;
 
  
@@ -828,7 +828,24 @@ background-attachment:inherit;
 }
 
 
-@media screen and (max-height: 690px) {
+@media screen and (max-height: 900px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 58vh;
+   width: 140vw;
+   background-position: center;
+   margin-left: -488px;
+   margin-top: -75px;
+   
+  }
+ }
+ 
+@media screen and (min-height: 800px) {
   .imgfondoCompetencias{
    background-image: url("./assets/img/PNG/graphic_línea.png");
    background-size: contain;
@@ -837,14 +854,74 @@ background-attachment:inherit;
    object-fit: cover;
    position: fixed;
    height: 65vh;
-   width: 155vw;
+   width: 110%;
    background-position: center;
-   margin-left: -708px;
+   margin-left: -250px;
+   margin-top: -185px;
+   
+  }
+ }
+ @media screen and (min-width: 2024px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 62vh;
+   width: 92%;
+   background-position: center;
+   margin-left: -320px;
+   margin-top: -180px;
+   
+  }
+ }
+
+
+
+ @media screen and (max-height: 600px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 70vh;
+   width: 92%;
+   background-position: center;
+   margin-left: -755px;
+   margin-top: -75px;
+   
+  }
+ }
+ @media screen and (max-height: 700px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 70vh;
+   width: 133vw;
+   background-position: center;
+   margin-left: -755px;
    margin-top: -75px;
    
   }
  }
  
+ @media screen and (max-height: 500px) {
+  .imgfondoCompetencias{
+    background-image: url("./assets/img/PNG/graphic_línea.png");
+    background-size: contain;
+    object-fit: 0%;
+    width: 0%;
+    padding-top: 0%;
+  }
+ }
 
  @media screen and (max-width: 900px) {
    .competencias {
@@ -852,6 +929,7 @@ background-attachment:inherit;
      background-position: bottom;
      
    }
+   
    
    
 
