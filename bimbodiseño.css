@@ -722,7 +722,7 @@
   background-repeat: no-repeat;
 background-attachment:inherit;
   object-fit: cover;
-  position: absolute;
+  position: fixed;
   height: 58vh;
   width: 115vw;
   background-position: center;
@@ -809,12 +809,52 @@ background-attachment:inherit;
    margin-bottom: -7%;
    margin-top: -8%;
  }
+
+ @media screen and (max-height: 1400px) {
+ .imgfondoCompetencias{
+  background-image: url("./assets/img/PNG/graphic_línea.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+background-attachment:inherit;
+  object-fit: cover;
+  position: fixed;
+  height: 58vh;
+  width: 105vw;
+  background-position: center;
+  margin-left: -258px;
+  margin-top: -105px;
+  
+ }
+}
+
+
+@media screen and (max-height: 690px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 65vh;
+   width: 155vw;
+   background-position: center;
+   margin-left: -708px;
+   margin-top: -75px;
+   
+  }
+ }
+ 
+
  @media screen and (max-width: 900px) {
    .competencias {
      background-image: url("./assets/img/PNG/graphic_A.png");
      background-position: bottom;
      
    }
+   
+   
+
    .competencias h1 {
      font-size: 28px;
    }
