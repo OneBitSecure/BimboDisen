@@ -720,14 +720,14 @@
   background-image: url("./assets/img/PNG/graphic_línea.png");
   background-size: contain;
   background-repeat: no-repeat;
-
+background-attachment:inherit;
   object-fit: cover;
   position: absolute;
-  height: 50vh;
-  width: 110vw;
+  height: 58vh;
+  width: 115vw;
   background-position: center;
-  margin-left: -165px;
-  margin-top: 105px;
+  margin-left: -268px;
+  margin-top: -75px;
 
  
 }
