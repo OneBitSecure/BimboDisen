@@ -720,13 +720,13 @@
   background-size: contain;
   background-repeat: no-repeat;
 background-attachment:inherit;
-  object-fit: cover;
-  position: fixed;
-  height: 58vh;
+  object-fit: initial;
+  position: absolute;
+  height: 61vh;
   width: 115vw;
   background-position: center;
-  margin-left: -388px;
-  margin-top: -75px;
+  margin-left: -50vh;
+  
 
  
 }
