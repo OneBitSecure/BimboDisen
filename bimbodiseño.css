@@ -912,9 +912,9 @@ background-attachment:inherit;
    object-fit: initial;
    position: absolute;
    height: 61vh;
-   width: 133vw;
+   width: 100rem;
    background-position: center;
-   margin-left: -755px;
+   margin-left: -18vw;
    
    
   }
