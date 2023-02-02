@@ -719,14 +719,14 @@
   background-image: url("./assets/img/PNG/graphic_línea.png");
   background-size: contain;
   background-repeat: no-repeat;
-
+background-attachment:inherit;
   object-fit: cover;
-  position: absolute;
-  height: 50vh;
-  width: 110vw;
+  position: fixed;
+  height: 58vh;
+  width: 115vw;
   background-position: center;
-  margin-left: -165px;
-  margin-top: 105px;
+  margin-left: -388px;
+  margin-top: -75px;
 
  
 }
@@ -787,6 +787,7 @@
    background-color: #fd4a4a;
    margin-bottom: -7%;
    margin-top: -5%;
+   
  }
  .competencias .liderazgo2 {
   background-color: #ff5100;
@@ -808,12 +809,137 @@
    margin-bottom: -7%;
    margin-top: -8%;
  }
+ .line{
+  border: solid 1px white;
+   width: 40vw; 
+   text-align: center; 
+   padding: 0;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
+ @media screen and (max-height: 1400px) {
+ .imgfondoCompetencias{
+  background-image: url("./assets/img/PNG/graphic_línea.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+background-attachment:inherit;
+  object-fit: cover;
+  position: fixed;
+  height: 58vh;
+  width: 105vw;
+  background-position: center;
+  margin-left: -258px;
+  margin-top: -105px;
+  
+ }
+}
+
+
+@media screen and (max-height: 900px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 58vh;
+   width: 140vw;
+   background-position: center;
+   margin-left: -488px;
+   margin-top: -75px;
+   
+  }
+ }
+ 
+@media screen and (min-height: 800px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 65vh;
+   width: 110%;
+   background-position: center;
+   margin-left: -250px;
+   margin-top: -185px;
+   
+  }
+ }
+ @media screen and (min-width: 2024px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 62vh;
+   width: 92%;
+   background-position: center;
+   margin-left: -320px;
+   margin-top: -180px;
+   
+  }
+ }
+
+
+
+ @media screen and (max-height: 600px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 70vh;
+   width: 92%;
+   background-position: center;
+   margin-left: -755px;
+   margin-top: -75px;
+   
+  }
+ }
+ @media screen and (max-height: 700px) {
+  .imgfondoCompetencias{
+   background-image: url("./assets/img/PNG/graphic_línea.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+ background-attachment:inherit;
+   object-fit: cover;
+   position: fixed;
+   height: 70vh;
+   width: 133vw;
+   background-position: center;
+   margin-left: -755px;
+   margin-top: -75px;
+   
+  }
+ }
+ 
+ @media screen and (max-height: 500px) {
+  .imgfondoCompetencias{
+    background-image: url("./assets/img/PNG/graphic_línea.png");
+    background-size: contain;
+    object-fit: 0%;
+    width: 0%;
+    padding-top: 0%;
+  }
+ }
+
  @media screen and (max-width: 900px) {
    .competencias {
      background-image: url("./assets/img/PNG/graphic_A.png");
      background-position: bottom;
      
    }
+   
+   
+   
+
    .competencias h1 {
      font-size: 28px;
    }
