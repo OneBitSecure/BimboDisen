@@ -823,13 +823,13 @@ background-attachment:inherit;
   background-size: contain;
   background-repeat: no-repeat;
 background-attachment:inherit;
-  object-fit: cover;
-  position: fixed;
-  height: 58vh;
+  object-fit: initial;
+  position: absolute;
+  height: 61vh;
   width: 105vw;
   background-position: center;
-  margin-left: -258px;
-  margin-top: -105px;
+  margin-left: -50vw;
+ 
   
  }
 }
@@ -909,13 +909,13 @@ background-attachment:inherit;
    background-size: contain;
    background-repeat: no-repeat;
  background-attachment:inherit;
-   object-fit: cover;
-   position: fixed;
-   height: 70vh;
+   object-fit: initial;
+   position: absolute;
+   height: 61vh;
    width: 133vw;
    background-position: center;
    margin-left: -755px;
-   margin-top: -75px;
+   
    
   }
  }
