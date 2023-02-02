@@ -788,6 +788,7 @@ background-attachment:inherit;
    background-color: #fd4a4a;
    margin-bottom: -7%;
    margin-top: -5%;
+   
  }
  .competencias .liderazgo2 {
   background-color: #ff5100;
@@ -809,7 +810,14 @@ background-attachment:inherit;
    margin-bottom: -7%;
    margin-top: -8%;
  }
-
+ .line{
+  border: solid 1px white;
+   width: 40vw; 
+   text-align: center; 
+   padding: 0;
+   margin-top: 15px;
+   margin-bottom: 15px;
+ }
  @media screen and (max-height: 1400px) {
  .imgfondoCompetencias{
   background-image: url("./assets/img/PNG/graphic_línea.png");
